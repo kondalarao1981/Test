@@ -15,7 +15,9 @@ id="addupload">Add another upload control</a></p>
 <div style="width:250px; height:auto; border:1px #000 solid; padding:10px;">
 <label>Upload Text File:</label> <input type="file" 
 name="file[]" class="imageupload">
-<div id="display"></div>    ""
+<div id="display"></div>
+
+<input type="hidden" name="hid" value="" />
 
 <input type="submit" value="submit" 
 name="submit" id="submit">
