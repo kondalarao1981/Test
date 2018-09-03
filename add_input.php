@@ -16,7 +16,7 @@ id="addupload">Add another upload control</a></p>
 <label>Upload Text File:</label> <input type="file" 
 name="file[]" class="imageupload">
 <div id="display"></div>    ""
-<input type="hidden" name="hid" value="" />
+
 <input type="submit" value="submit" 
 name="submit" id="submit">
  </div>    
@@ -26,7 +26,7 @@ name="submit" id="submit">
 $(function(){
     $('#addupload').click(function(){
         var addControl = '<label>Upload Text File:</label>';
-        addControl += ' <input type="file" 
+    c    addControl += ' <input type="file" 
         name="file[]" class="imageupload">';
         $('#display').before(addControl); 
     });
